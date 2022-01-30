@@ -1,4 +1,8 @@
 module.exports = {
+  env: {
+    NEXT_PUBLIC_LASTFM_API_KEY: '9a8b0bba85d7f143135fdfdf8210d77b',
+
+  },
   reactStrictMode: true,
   webpack5: true,
   poweredByHeader: false,

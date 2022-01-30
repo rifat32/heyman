@@ -19,12 +19,12 @@ console.log(data)
         <div className="md:px-8">
           <FadeIn>
             <div
-          //     className="rounded-lg justify-center md:justify-start
-          //  grid grid-flow-row xs:grid-flow-col gap-6 xs:grid-rows-2 overflow-scroll no-scrollbar p-3"
-           className="grid   rounded-lg justify-center md:justify-start  grid-flow-row  gap-2
-           xl:grid-cols-4 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-2   overflow-scroll no-scrollbar p-3"
+              className="rounded-lg justify-center md:justify-start
+           grid grid-flow-row xs:grid-flow-col gap-6 xs:grid-rows-2 overflow-scroll no-scrollbar p-3"
+          //  className="grid   rounded-lg justify-center md:justify-start  grid-flow-row  gap-2
+          //  xl:grid-cols-4 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-2   overflow-scroll no-scrollbar p-3"
             >
-              {/* {data.topalbums.album
+              {data.topalbums.album
                 .filter((album) => album.image[3]['#text'])
                 .map((album) => (
                   <AlbumCard
@@ -34,8 +34,9 @@ console.log(data)
                     coverImage={album.image[3]['#text']}
                     href={album.url}
                   />
-                ))} */}
-                {
+                ))}
+               
+                {/* {
 
                 AlbumData.map((album) => (
                   <AlbumCard
@@ -45,7 +46,7 @@ console.log(data)
                     coverImage={album.coverImage}
                     href={album.href}
                   />
-                ))}
+                ))} */}
                 
             </div>
           </FadeIn>

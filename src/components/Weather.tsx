@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { IconName, IconPrefix } from '@fortawesome/fontawesome-common-types'
+import { FaSoundcloud } from 'react-icons/fa'
 import { WeatherResponse } from 'types/weather'
 
 export const Weather = () => {
@@ -35,6 +36,7 @@ export const Weather = () => {
         }
         className="mr-2"
       /> */}
+      <FaSoundcloud className="mr-2" style={{display:"inline"}}/>
       It's currently{' '}
       {(celsius < 8 && <span className="mr-1">❄️</span>) ||
         (celsius > 30 && <span className="mr-1">🔥</span>)}
@@ -48,7 +50,7 @@ export const Weather = () => {
         target="_blank"
         className="font-bold focus:outline-none transition duration-300 ease-in-out hover:text-indigo-900 dark:hover:text-indigo-200"
       >
-        London
+        Algeria
       </a>
       .
     </motion.p>

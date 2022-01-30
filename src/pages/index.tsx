@@ -70,7 +70,7 @@ const Home = () => {
         </div>
         <div className="grid my-8 gap-2">
           <Time />
-          {/* <Weather /> */}
+          <Weather />
         </div>
         <div>
           <NowPlayingCard />

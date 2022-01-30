@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {FaClock} from "react-icons/fa"
 import { dayjs } from 'lib/dayjs'
 
 const now = () => dayjs().utcOffset(60)
@@ -31,6 +32,9 @@ const Time = () => {
         className="mr-2"
         icon={date.isBetween(beforeTime, afterTime) ? ['far', 'snooze'] : ['far', 'clock']}
       /> */}
+      {
+date.isBetween(beforeTime, afterTime) ? (<FaClock style={{"display":"inline"}} className="mr-2"/>): (<FaClock style={{"display":"inline"}} className="mr-2"/>)}
+      
       {date.format('Do MMMM YYYY • h:mm:ss A')}{' '}
       {currentEvent && (
         <span className="font-bold">
