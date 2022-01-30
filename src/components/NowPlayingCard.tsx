@@ -11,6 +11,7 @@ export const NowPlayingCard = () => {
 
   if (['connecting', 'error'].includes(lastFM.status)) return null
 
+  console.log(lastFM.status)
   return (
     <FadeIn>
       <a
