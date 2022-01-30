@@ -35,7 +35,7 @@ export const AnimeCard = ({ title, href, img, altTitle, starred }: Anime) => {
         } ml-0 sm:ml-4 z-40 text-2xl my-auto font-bold`}
       >
         <div>
-          k
+          
           {/* {starred && <FontAwesomeIcon icon={['far', 'stars']} className="mr-2" />} */}
           {title}
         </div>{' '}
