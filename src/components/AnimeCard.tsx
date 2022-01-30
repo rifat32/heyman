@@ -16,6 +16,12 @@ export const AnimeCard = ({ title, href, img, altTitle, starred }: Anime) => {
       onMouseLeave={() => setHovering(false)}
       className="relative h-32 focus:outline-none transition duration-300 ease-in-out transform hover:scale-102.5 flex flex-col sm:flex-row text-center sm:text-left shadow-lg max-w-2xl"
     >
+
+
+
+
+
+
       <div
         className={`transition duration-300 ease-in-out ${
           hovering ? 'opacity-40' : 'opacity-100 '
@@ -29,6 +35,7 @@ export const AnimeCard = ({ title, href, img, altTitle, starred }: Anime) => {
         } ml-0 sm:ml-4 z-40 text-2xl my-auto font-bold`}
       >
         <div>
+          k
           {/* {starred && <FontAwesomeIcon icon={['far', 'stars']} className="mr-2" />} */}
           {title}
         </div>{' '}
