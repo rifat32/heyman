@@ -1,6 +1,6 @@
 module.exports = {
   env: {
-    NEXT_PUBLIC_LASTFM_API_KEY: '9a8b0bba85d7f143135fdfdf8210d77b',
+    NEXT_PUBLIC_LASTFM_API_KEY: 'ebe2c441c37e356caefe318275757b53',
 
   },
   reactStrictMode: true,
