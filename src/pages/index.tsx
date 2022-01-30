@@ -54,7 +54,7 @@ const Home = () => {
         <MainLayout margin={false}>
         <h1 className="text-6xl font-bold">Erenci</h1>
         <p className="text-lg text-gray-600 dark:text-gray-400 max-w-sm mt-2">
-        20-year-old<span className="font-semibold"> Front-end and graphic designer</span>  from Algeria.
+        20-year-old<span className="font-semibold"> Self-taught Developer and Graphic designer </span>  from Algeria.
         </p>
       
         <div className="grid grid-flow-col w-48 mt-3 text-lg">

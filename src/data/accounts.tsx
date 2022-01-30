@@ -9,16 +9,16 @@ export interface Account {
 }
 
 export const AccountData: Account[] = [
-  {
-    name: 'GitHub',
-    href: 'https://github.com/Kherici',
-    icon: <FaGithub/>
-  },
-  {
-    name: 'Twitter',
-    href: '/twitter',
-    icon: <FaTwitter/>
-  },
+  // {
+  //   name: 'GitHub',
+  //   href: 'https://github.com/Kherici',
+  //   icon: <FaGithub/>
+  // },
+  // {
+  //   name: 'Twitter',
+  //   href: '/twitter',
+  //   icon: <FaTwitter/>
+  // },
   {
     name: 'Discord',
     href: '/Scotty#7473',

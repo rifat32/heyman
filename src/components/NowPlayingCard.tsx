@@ -4,6 +4,7 @@ import { truncate } from 'lib/utils'
 import FadeIn from 'react-fade-in'
 import Image from 'next/image'
 import SongImage from '@public/img/song.webp'
+import { FaSpotify } from 'react-icons/fa'
 const { NEXT_PUBLIC_LASTFM_API_KEY } = process.env
 
 export const NowPlayingCard = () => {
@@ -46,10 +47,16 @@ export const NowPlayingCard = () => {
               ? `Listening to ${truncate(lastFM.song.name, 25)}`
               : 'Not listening to anything'}
           </div>
+      
           {/* <p className="text-xxs">
             <FontAwesomeIcon className="fill-current text-green-500" icon={['fab', 'spotify']} />{' '}
             Spotify
           </p> */}
+          <p className="text-xxs">
+          <FaSpotify className="fill-current text-green-500"/>
+            
+            Spotify
+          </p>
         </div>
       </a>
     </FadeIn>
