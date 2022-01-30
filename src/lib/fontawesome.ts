@@ -71,3 +71,6 @@
 
 // Import @fortawesome/pro-duotone-svg-icons
 // library.add(faSun)
+export const obj = {
+    message:"no need"
+}
