@@ -45,7 +45,7 @@ export const Weather = () => {
       </span>{' '}
       <span className="text-xs">({weatherDescription})</span> in{' '}
       <a
-        href="https://weather.com/en-GB/weather/today/l/51.49,-0.14"
+        href="https://weather.com/en-GB/weather/today/l/bb5f448522ff58b50af28a405e51917e72ae28bc6e84e807bad09b51c7e58bc4"
         rel="noopener noreferrer"
         target="_blank"
         className="font-bold focus:outline-none transition duration-300 ease-in-out hover:text-indigo-900 dark:hover:text-indigo-200"
