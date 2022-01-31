@@ -22,7 +22,7 @@ export const AnimeData: Anime[] = [
   {
     title: 'Attack on Titan',
     href: 'https://myanimelist.net/anime/16498/Shingeki_no_Kyojin',
-    img: 'https://i.imgur.com/l9bDXet.jpeg',
+    img: 'https://i.imgur.com/ayGXjvN.jpeg',
     starred: true,
   },
   {
