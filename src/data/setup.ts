@@ -7,13 +7,13 @@ export interface Component {
 export const ComponentData: Component[] = [
   {
     type: 'Case',
-    name: 'Cooler Master HAF X',
-    href: 'https://www.amazon.com/Cooler-Master-HAF-Computer-RC-942-KKN1/dp/B003S68Q0Y',
+    name: 'Cooler Master RC-K550-KWN1',
+    href: 'https://www.amazon.com/Cooler-Master-RC-K550-KWN1-Midnight-Interior/dp/B00M7SCAU6/ref=cm_cr_arp_d_product_top?ie=UTF8',
   },
   {
     type: 'Motherboard',
-    name: 'ASRock H570M Pro4 Micro ATX LGA1200 Motherboard',
-    href: 'https://www.amazon.com/ASRock-Compatible-Generation-MicroATX-Motherboard/dp/B08X1TDPV8',
+    name: 'MSI H110M PRO-VH Desktop Motherboard',
+    href: 'https://www.amazon.com/MSI-Motherboard-H110M-PRO-VH-LGA1151/dp/B01649F7VW',
   },
   // {
   //   type: 'PSU',
@@ -27,8 +27,8 @@ export const ComponentData: Component[] = [
   },
   {
     type: 'CPU',
-    name: '*Intel Core i5-10400 2.9 GHz 6-Core Processor',
-    href: 'https://www.amazon.com/Intel-i5-10400-Desktop-Processor-LGA1200/dp/B086MN38Q2',
+    name: 'Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz 2.71 GHz',
+    href: 'https://www.amazon.com/dp/B010T6CG7E?tag=userbenchmark-20&linkCode=ogi&th=1&psc=1',
   },
   // {
   //   type: 'CPU Cooler',
@@ -42,7 +42,7 @@ export const ComponentData: Component[] = [
   },
   {
     type: 'Storage',
-    name: 'Western Digital Blue SN550 500 GB M.2-2280 NVME Solid State Drive',
-    href: 'https://www.amazon.com/Blue-SN550-500GB-NVMe-Internal/dp/B07YFF3JCN',
+    name: 'ADATA Ultimate SU630 Disque SSD 2.5" 240 Go SATA',
+    href: 'https://www.amazon.fr/dp/B07KQXKK12/ref=cm_sw_em_r_mt_dp_49KDY27QJDA22YB4FH0Q',
   },
 ]
