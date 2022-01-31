@@ -8,12 +8,12 @@ export const ComponentData: Component[] = [
   {
     type: 'Case',
     name: 'Cooler Master HAF X',
-    href: 'https://www.nzxt.com/products/h510-elite-matte-white',
+    href: 'https://www.amazon.com/Cooler-Master-HAF-Computer-RC-942-KKN1/dp/B003S68Q0Y',
   },
   {
     type: 'Motherboard',
     name: 'ASRock H570M Pro4 Micro ATX LGA1200 Motherboard',
-    href: 'https://www.msi.com/Motherboard/MEG-Z490-UNIFY',
+    href: 'https://www.amazon.com/ASRock-Compatible-Generation-MicroATX-Motherboard/dp/B08X1TDPV8',
   },
   // {
   //   type: 'PSU',
@@ -22,13 +22,13 @@ export const ComponentData: Component[] = [
   // },
   {
     type: 'GPU',
-    name: 'NVIDIA Geforce RTX 1060',
-    href: 'https://www.nvidia.com/en-gb/geforce/graphics-cards/30-series/rtx-3080/',
+    name: 'NVIDIA Geforce GTX 1060',
+    href: 'https://www.amazon.com/MSI-GAMING-GTX-1060-6G/dp/B01IEKYD5U',
   },
   {
     type: 'CPU',
     name: '*Intel Core i5-10400 2.9 GHz 6-Core Processor',
-    href: 'https://ark.intel.com/content/www/us/en/ark/products/199332/intel-core-i9-10900k-processor-20m-cache-up-to-5-30-ghz.html',
+    href: 'https://www.amazon.com/Intel-i5-10400-Desktop-Processor-LGA1200/dp/B086MN38Q2',
   },
   // {
   //   type: 'CPU Cooler',
@@ -38,11 +38,11 @@ export const ComponentData: Component[] = [
   {
     type: 'Memory',
     name: 'Silicon Power 16 GB (2 x 8 GB) DDR4-3200 CL16 Memory',
-    href: 'https://www.corsair.com/uk/en/Categories/Products/Memory/Vengeance-PRO-RGB-Black/p/CMW32GX4M2D3600C18',
+    href: 'https://www.amazon.com/Silicon-Power-Turbine-3200MHz-288-pin/dp/B07NKYM62D',
   },
   {
     type: 'Storage',
     name: 'Western Digital Blue SN550 500 GB M.2-2280 NVME Solid State Drive',
-    href: 'https://www.samsung.com/uk/memory-storage/nvme-ssd/970-evo-plus-nvme-m-2-ssd-1tb-mz-v7s1t0bw/',
+    href: 'https://www.amazon.com/Blue-SN550-500GB-NVMe-Internal/dp/B07YFF3JCN',
   },
 ]
