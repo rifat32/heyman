@@ -38,7 +38,7 @@ const Setup = () => {
             ))}
           </ul>
         </div>
-        <div>
+        {/* <div>
           <h3>Laptop</h3>
           <a
             rel="noopener noreferrer"
@@ -47,7 +47,7 @@ const Setup = () => {
           >
             Apple MacBook Pro (M1)
           </a>
-        </div>
+        </div> */}
       </article>
     </MainLayout>
   )

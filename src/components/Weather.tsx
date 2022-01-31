@@ -50,7 +50,7 @@ export const Weather = () => {
         target="_blank"
         className="font-bold focus:outline-none transition duration-300 ease-in-out hover:text-indigo-900 dark:hover:text-indigo-200"
       >
-        Algeria
+      El Bayadh
       </a>
       .
     </motion.p>
