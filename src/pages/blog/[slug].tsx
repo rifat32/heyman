@@ -8,10 +8,12 @@ import readingTime from 'reading-time'
 import rehypePrism from '@mapbox/rehype-prism'
 import matter from 'gray-matter'
 import Image from 'next/image'
-import VenImage from '@public/eren-1.png'
+// import VenImage from '@public/eren-1.png'
+import {link} from "../../data/link"
 
 import { GetStaticProps, InferGetStaticPropsType } from 'next'
 import { ParsedUrlQuery } from 'querystring'
+import { BiLinkAlt } from 'react-icons/bi'
 
 export default function Posts({
   source,
@@ -22,7 +24,7 @@ export default function Posts({
       <div className="mt-6 flex flex-row items-center">
         <Image
           className="rounded-full"
-          src={VenImage}
+          src={link.eren1png}
           alt="ven profile picture"
           width={24}
           height={24}
