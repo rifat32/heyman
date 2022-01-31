@@ -7,15 +7,27 @@ import { LastFMResponse } from 'types/lastFM'
 import { AlbumCard } from 'components/AlbumCard'
 
 import {AlbumData} from "../data/album";
+import { useEffect,useState } from 'react'
 
 export default function Albums() {
-  const { data }: { data?: LastFMResponse } = useSWR('topAlbums')
-console.log(data)
+  // const { data }: { data?: LastFMResponse } = useSWR('topAlbums')
+const [data,setData] = useState<any>(null)
+  useEffect(() => {
+  
+    fetch(`http://ws.audioscrobbler.com/2.0/?method=user.gettopalbums&user=Kherici&api_key=${process.env.NEXT_PUBLIC_LASTFM_API_KEY}&format=json`)
+      .then((res) => res.json())
+      .then((data) => {
+        setData(data)
+        console.log("data coming")
+  
+      })
+  }, [])
+
   return (
     <>
       <GenericMeta title="Albums" description="My top albums on Spotify." />
 
-      {data && (
+      {data?  (
         <div className="md:px-8">
           <FadeIn>
             <div
@@ -25,8 +37,8 @@ console.log(data)
           //  xl:grid-cols-4 lg:grid-cols-3  md:grid-cols-2 sm:grid-cols-2   overflow-scroll no-scrollbar p-3"
             >
               {data.topalbums.album
-                .filter((album) => album.image[3]['#text'])
-                .map((album) => (
+                .filter((album:any) => album.image[3]['#text'])
+                .map((album:any) => (
                   <AlbumCard
                     key={uuidv4()}
                     artist={album.artist.name}
@@ -51,7 +63,7 @@ console.log(data)
             </div>
           </FadeIn>
         </div>
-      )}
+      ):<></>}
     </>
   )
 }
