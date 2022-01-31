@@ -1,15 +1,15 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
+import {link} from "../data/link"
 
-const {NEXT_PUBLIC_URL} = process.env
 
 class AppDocument extends Document {
   render() {
-    console.log(NEXT_PUBLIC_URL +"/site.webmanifest")
+   
     return (
       <Html lang="en">
         <Head>
-          <link rel="preconnect" href={NEXT_PUBLIC_URL + "https://vitals.vercel-insights.com"} />
-          <link rel="preconnect" href={NEXT_PUBLIC_URL +"https://ws.audioscrobbler.com"} />
+          <link rel="preconnect" href="https://vitals.vercel-insights.com"/>
+          <link rel="preconnect" href="https://ws.audioscrobbler.com" />
           <link
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
             rel="stylesheet"
@@ -17,12 +17,12 @@ class AppDocument extends Document {
           {/* <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png" />
           <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
           <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" /> */}
-           <link rel="apple-touch-icon" sizes="152x152" href={NEXT_PUBLIC_URL +"/eren-1.png"} />
-          <link rel="icon" type="image/png" sizes="32x32" href={NEXT_PUBLIC_URL +"/eren-1.png"} />
-          <link rel="icon" type="image/png" sizes="16x16" href={NEXT_PUBLIC_URL +"/eren-1.png"} />
+           <link rel="apple-touch-icon" sizes="152x152" href={link +"/eren-1.png"} />
+          <link rel="icon" type="image/png" sizes="32x32" href={link +"/eren-1.png"} />
+          <link rel="icon" type="image/png" sizes="16x16" href={link +"/eren-1.png"} />
        
-          <link rel="manifest" href={NEXT_PUBLIC_URL +"/site.webmanifest"} />
-          <link rel="mask-icon" href={NEXT_PUBLIC_URL +"/safari-pinned-tab.svg"} color="#FFFFFF" />
+          <link rel="manifest" href={link +"/site.webmanifest"} />
+          <link rel="mask-icon" href={link +"/safari-pinned-tab.svg"} color="#FFFFFF" />
           <meta property="og:url" content="https://ven.earth" />
           <meta property="og:site_name" content="Erenci" />
           {/* <meta property="og:image" content="/img/ven.jpg" /> */}
