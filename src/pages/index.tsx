@@ -9,6 +9,7 @@ import toast from 'react-hot-toast'
 import { Account, AccountData } from 'data/accounts'
 import { NowPlayingCard } from 'components/NowPlayingCard'
 import { Weather } from 'components/Weather'
+
 const Time = dynamic(() => import('components/Time'), {
   ssr: false,
 })

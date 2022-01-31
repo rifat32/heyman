@@ -1,15 +1,28 @@
 import useSWR from 'swr'
-import { useState } from 'react'
+
 import { motion } from 'framer-motion'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { IconName, IconPrefix } from '@fortawesome/fontawesome-common-types'
 import { FaSoundcloud } from 'react-icons/fa'
 import { WeatherResponse } from 'types/weather'
+import { useEffect, useState } from 'react'
 
 export const Weather = () => {
   const [useCelsius, setCelsius] = useState(true)
 
-  const { data }: { data?: WeatherResponse } = useSWR('weather')
+  // const { data }: { data?: WeatherResponse } = useSWR('weather')
+  const [data,setData] = useState<any>();
+  useEffect(() => {
+  
+   fetch(
+     `https://api.openweathermap.org/data/2.5/weather?q=el+bayadh&units=metric&appid=e3b952b7c233305e18697b3645934aa6`
+   )
+     .then((res) => res.json())
+     .then((data) => {
+      setData(data)
+      
+     })
+ }, [])
 
   if (!data) return null
 
