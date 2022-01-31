@@ -1,4 +1,4 @@
-# 🌍 ven.earth
+# 🌍 Erenci
 
 My personal site created with **Next.js** and **TailwindCSS**.
 
