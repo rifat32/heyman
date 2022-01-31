@@ -3,11 +3,13 @@ module.exports = {
     NEXT_PUBLIC_LASTFM_API_KEY: 'ebe2c441c37e356caefe318275757b53',
 
   },
+ 
   reactStrictMode: true,
   webpack5: true,
   poweredByHeader: false,
   images: {
-    domains: ['lastfm.freetls.fastly.net'],
+    loader: 'akamai',
+    path: '',
   },
   async redirects() {
     return [
