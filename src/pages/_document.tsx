@@ -19,7 +19,7 @@ class AppDocument extends Document {
           <link rel="icon" type="image/png" sizes="32x32" href={NEXT_PUBLIC_URL +"/eren-1.png"} />
           <link rel="icon" type="image/png" sizes="16x16" href={NEXT_PUBLIC_URL +"/eren-1.png"} />
        
-          <link rel="manifest" href={NEXT_PUBLIC_URL +"/site.webmanifest"} />
+          <link rel="manifest" href={"/site.webmanifest"} />
           <link rel="mask-icon" href={NEXT_PUBLIC_URL +"/safari-pinned-tab.svg"} color="#FFFFFF" />
           <meta property="og:url" content="https://ven.earth" />
           <meta property="og:site_name" content="Erenci" />
