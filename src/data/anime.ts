@@ -10,31 +10,31 @@ export const AnimeData: Anime[] = [
   {
     title: 'Dragon Ball',
     href: 'https://myanimelist.net/anime/223/Dragon_Ball?q=dragon%20ba&cat=anime',
-    img: 'https://cdn.myanimelist.net/images/anime/1887/92364.jpg',
+    img: 'https://i.imgur.com/8ILBB7F.jpeg',
     starred: true,
   },
   {
     title: 'Death Note: Rewrite',
     href: 'https://myanimelist.net/anime/2994/Death_Note__Rewrite?q=death%20note&cat=anime',
-    img: 'https://cdn.myanimelist.net/images/anime/13/8518.jpg',
+    img: 'https://i.imgur.com/BZeyceQ.jpeg',
     starred: true,
   },
   {
     title: 'Attack on Titan',
     href: 'https://myanimelist.net/anime/16498/Shingeki_no_Kyojin',
-    img: 'https://cdn.myanimelist.net/images/anime/10/47347.jpg',
+    img: 'https://i.imgur.com/l9bDXet.jpeg',
     starred: true,
   },
   {
     title: 'Jujutsu Kaisen (TV)',
     href: 'https://myanimelist.net/anime/40748/Jujutsu_Kaisen_TV',
-    img: 'https://cdn.myanimelist.net/images/anime/1171/109222.jpg',
+    img: 'https://i.imgur.com/l9bDXet.jpeg',
     starred: true,
   },
   {
     title: 'Parasyte: The Maxim',
     href: 'https://myanimelist.net/anime/22535/Kiseijuu__Sei_no_Kakuritsu?q=Parasyte%20(Kiseijuu)&cat=anime',
-    img: 'https://cdn.myanimelist.net/images/anime/3/73178.jpg',
+    img: 'https://i.imgur.com/H0wPp3M.png',
     starred: true,
   },
 
