@@ -11,6 +11,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
+    "start": "next start -p $PORT",
+    
+    "heroku-postbuild": "npm run build",
   },
   "license": "MIT",
   "dependencies": {
