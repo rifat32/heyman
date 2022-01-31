@@ -4,6 +4,7 @@ module.exports = {
   },
   assetPrefix: '/Erenci',
   basePath:"/Erenci",
+  
  
   reactStrictMode: true,
   webpack5: true,

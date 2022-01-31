@@ -14,11 +14,11 @@ export default function Albums() {
 const [data,setData] = useState<any>(null)
   useEffect(() => {
   
-    fetch(`http://ws.audioscrobbler.com/2.0/?method=user.gettopalbums&user=Kherici&api_key=${process.env.NEXT_PUBLIC_LASTFM_API_KEY}&format=json`)
+    fetch(`https://ws.audioscrobbler.com/2.0/?method=user.gettopalbums&user=Kherici&api_key=${process.env.NEXT_PUBLIC_LASTFM_API_KEY}&format=json`)
       .then((res) => res.json())
       .then((data) => {
         setData(data)
-        console.log("data coming")
+       
   
       })
   }, [])
