@@ -12,7 +12,7 @@ export const ComponentText = ({ type, href, name }: Component) => {
      <span> <BiCaretRightCircle style={{display:"inline"}} /> </span> 
       <a rel="noopener noreferrer" target="_blank" 
       style={{cursor:"pointer"}}
-      // href={href}
+       href={href}
      
       >
         {name}
