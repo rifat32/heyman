@@ -57,9 +57,10 @@ const Home = () => {
         20-year-old<span className="font-semibold"> Self-taught Developer and Graphic designer </span>  from Algeria.
         </p>
       
-        <div className="grid grid-flow-col w-48 mt-3 text-lg">
+        <div className="justify-center md:justify-start grid grid-flow-col gap-1 w-48 mt-3 text-lg ">
           {AccountData.map((account) => (
             <SocialLink
+            
               key={uuidv4()}
               name={account.name}
               href={account.href}

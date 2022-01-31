@@ -21,11 +21,12 @@ export const AccountData: Account[] = [
   // },
   {
     name: 'Discord',
-    href: '/Scotty#7473',
-    icon: <FaDiscord/>
+    href: 'https://discord.com/users/373006788380852236',
+    icon: <FaDiscord style={{marginRight:"1rem"}}/>
   },
+ 
   {
     name: 'Email',
-    icon: <FaEnvelope/>
+    icon: <FaEnvelope style={{marginRight:"1rem"}}/>
   },
 ]
