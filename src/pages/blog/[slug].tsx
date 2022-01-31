@@ -8,7 +8,8 @@ import readingTime from 'reading-time'
 import rehypePrism from '@mapbox/rehype-prism'
 import matter from 'gray-matter'
 import Image from 'next/image'
-import VenImage from '@public/img/ven.jpg'
+import VenImage from '@public/eren-1.png'
+
 import { GetStaticProps, InferGetStaticPropsType } from 'next'
 import { ParsedUrlQuery } from 'querystring'
 
