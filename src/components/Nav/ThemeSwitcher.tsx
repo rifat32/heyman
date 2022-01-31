@@ -3,13 +3,14 @@ import useSound from 'use-sound'
 import { useTheme } from 'next-themes'
 import { useEffect, useState } from 'react'
 import {FaMoon,FaSun} from 'react-icons/fa'
+import {link} from '../../data/link'
 
 export const ThemeSwitcher = () => {
   const [mounted, setMounted] = useState(false)
   const { theme, setTheme } = useTheme()
 
-  const [playOn] = useSound('/sound/switch-on.mp3')
-  const [playOff] = useSound('/sound/switch-off.mp3')
+  const [playOn] = useSound(`${link.link}/sound/switch-on.mp3`)
+  const [playOff] = useSound(`${link.link}/sound/switch-off.mp3`)
 
   const toggle = () => {
     if (theme === 'dark') {
