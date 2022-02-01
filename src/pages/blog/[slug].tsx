@@ -8,7 +8,7 @@ import readingTime from 'reading-time'
 import rehypePrism from '@mapbox/rehype-prism'
 import matter from 'gray-matter'
 import Image from 'next/image'
-// import VenImage from '@public/eren-1.png'
+
 import {link} from "../../data/link"
 
 import { GetStaticProps, InferGetStaticPropsType } from 'next'
@@ -25,7 +25,7 @@ export default function Posts({
         <Image
           className="rounded-full"
           src={link.eren1png}
-          alt="ven profile picture"
+          alt="Kherici  profile picture"
           width={24}
           height={24}
         />

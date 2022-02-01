@@ -1,8 +1,6 @@
 {
-  "name": "ven-earth",
+  "name": "Kherici",
   "description": "My personal website.",
-  "homepage": "https://ven.earth",
-  "repository": "github:ven/ven-earth",
   "version": "1.0.0",
   "private": true,
   "author": "ven <v@ven.earth>",
