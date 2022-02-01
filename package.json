@@ -3,7 +3,6 @@
   "description": "My personal website.",
   "version": "1.0.0",
   "private": true,
-  "author": "ven <v@ven.earth>",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
