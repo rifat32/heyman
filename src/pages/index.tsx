@@ -50,12 +50,12 @@ const Home = () => {
   return <>
   <GenericMeta
         title="Erenci"
-        description="19-year-old software developer and student from the United Kingdom."
+        description=" A Self-taught Developer and Graphic designer from Algeria."
       />
         <MainLayout margin={false}>
         <h1 className="text-6xl font-bold">Erenci</h1>
         <p className="text-lg text-gray-600 dark:text-gray-400 max-w-sm mt-2">
-        20-year-old<span className="font-semibold"> Self-taught Developer and Graphic designer </span>  from Algeria.
+        <span className="font-semibold"> Self-taught Developer and Graphic designer </span>  from Algeria.
         </p>
       
         <div className="justify-center md:justify-start grid grid-flow-col gap-1 w-48 mt-3 text-lg ">
