@@ -15,7 +15,7 @@ export const Weather = () => {
   useEffect(() => {
   
    fetch(
-     `https://api.openweathermap.org/data/2.5/weather?q=el+bayadh&units=metric&appid=e3b952b7c233305e18697b3645934aa6`
+     `https://api.openweathermap.org/data/2.5/weather?q=el+bayadh&units=metric&appid=${process.env.NEXT_PUBLIC_Weather_API_KEY}`
    )
      .then((res) => res.json())
      .then((data) => {
