@@ -1,9 +1,9 @@
 export const link = {
-    eren1png:"https://kherici.github.io/Kherici/eren-1.png",
-    safaripinnedtabsvg:"https://kherici.github.io/Kherici/safari-pinned-tab.svg",
-    webmanifest:"https://kherici.github.io/Kherici/site.webmanifest",
+    eren1png:"https://rifat32.github.io/Kherici/eren-1.png",
+    safaripinnedtabsvg:"https://rifat32.github.io/Kherici/safari-pinned-tab.svg",
+    webmanifest:"https://rifat32.github.io/Kherici/site.webmanifest",
     
-    link:"/"
+    link:"https://rifat32.github.io/Kherici"
     
     
 }
