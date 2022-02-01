@@ -1,5 +1,5 @@
 import '../styles/globalsa.css'
-import 'lib/fontawesome'
+import '../lib/fontawesome'
 import { SWRConfig } from 'swr'
 import { ThemeProvider } from 'next-themes'
 import { AppProps } from 'next/app'
