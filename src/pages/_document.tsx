@@ -21,13 +21,13 @@ class AppDocument extends Document {
        
           <link rel="manifest" href={link.webmanifest} />
           <link rel="mask-icon" href={link.safaripinnedtabsvg} color="#FFFFFF" />
-          <meta property="og:url" content="https://ven.earth" />
+          {/* <meta property="og:url" content="https://ven.earth" /> */}
           <meta property="og:site_name" content="Erenci" />
           {/* <meta property="og:image" content="/img/ven.jpg" /> */}
           <meta property="og:image" content="/eren-1.png" />
           <meta name="theme-color" content="#000000" />
           <meta name="twitter:card" content="summary" />
-          <meta name="twitter:image" content="https://ven.earth/img/ven.jpg" />
+          {/* <meta name="twitter:image" content="https://ven.earth/img/ven.jpg" /> */}
         </Head>
         <body className="bg-white dark:bg-black text-black dark:text-white">
           <Main />
