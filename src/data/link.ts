@@ -3,7 +3,7 @@ export const link = {
     safaripinnedtabsvg:"https://kherici.github.io/Kherici/safari-pinned-tab.svg",
     webmanifest:"https://kherici.github.io/Kherici/site.webmanifest",
     
-    link:"https://kherici.github.io/Kherici"
+    link:"/"
     
     
 }
